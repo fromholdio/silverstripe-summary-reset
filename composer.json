@@ -1,0 +1,26 @@
+{
+  "name": "fromholdio/silverstripe-summary-reset",
+  "type": "silverstripe-vendormodule",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-summary-reset",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-summary-reset/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/vendor-plugin": "^1.0",
+    "silverstripe/framework": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\SummaryReset\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
