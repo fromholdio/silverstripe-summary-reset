@@ -3,9 +3,9 @@
 namespace Fromholdio\SummaryReset\Extensions;
 
 use SilverStripe\Core\Config\Config;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 
-class ResetSummaryFieldsExtension extends DataExtension
+class ResetSummaryFieldsExtension extends Extension
 {
     public function updateSummaryFields(&$fields) {
         $fields = Config::inst()->get(

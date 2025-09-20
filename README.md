@@ -1,6 +1,6 @@
 # silverstripe-summary-reset
 
-Requires Silverstripe 4/5+
+Requires Silverstripe 4/5/6+
 
 Occassionally it would be helpful to clear any configured $summary_fields declarations accumulated by a DataObject class and its ancestors.
 
